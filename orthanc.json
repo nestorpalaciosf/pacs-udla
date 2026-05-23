@@ -15,7 +15,7 @@
     "Enable": true
   },
 
-  "Plugins": [
-    "/usr/share/orthanc/plugins"
-  ]
+  "WebViewer": {
+    "Enable": true
+  }
 }
