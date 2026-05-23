@@ -1,0 +1,13 @@
+{
+  "Name": "PACS-UDLA",
+
+  "AuthenticationEnabled": true,
+
+  "RegisteredUsers": {
+    "admin": "admin123"
+  },
+
+  "DicomWeb": {
+    "Enable": true
+  }
+}
