@@ -15,12 +15,7 @@
     "Enable": true
   },
 
-  "OHIF": {
-    "Enable": true,
-    "DataSource": "dicom-web"
-  },
-
-  "StoneWebViewer": {
-    "Enable": true
-  }
+  "Plugins": [
+    "/usr/share/orthanc/plugins"
+  ]
 }
