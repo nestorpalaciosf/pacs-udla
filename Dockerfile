@@ -1,16 +1,4 @@
-FROM orthancteam/orthanc:latest
-
-ENV ORTHANC__NAME="PACS-UDLA"
-
-ENV ORTHANC__AUTHENTICATION_ENABLED="true"
-
-ENV ORTHANC__DICOM_WEB__ENABLE="true"
-
-ENV ORTHANC__OHIF_ENABLED="true"
-
-ENV ORTHANC__OHIF_DATA_SOURCE="dicom-web"
-
-ENV VERBOSE_ENABLED="true"
+FROM jodogne/orthanc-plugins:latest
 
 COPY orthanc.json /etc/orthanc/
 
